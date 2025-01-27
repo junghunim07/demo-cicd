@@ -2,7 +2,7 @@ version: '3'
 services:
   spring-backend:
     build: ./
-    image: junghunlim0707/spring-cicd:4807adf85e3b75eaf411feb27ae6e8a124914f38
+    image: junghunlim0707/spring-cicd:latest
     ports:
       - 8080:8080
     deploy:
